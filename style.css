@@ -146,6 +146,7 @@ img{
 h1,h2{
   text-transform: uppercase;
   text-align: center;
+  text-decoration: underline;
 }
 p{
   text-indent: 30px;
@@ -172,12 +173,27 @@ h1,h2,p{
 }
 
 #icerik img{
-width: 200px;
-height: 100%;
-margin:20px;
-box-shadow: 0 0 5px gray;
+  width: 200px;
+  height: 100%;
+  margin:20px;
+  box-shadow: 0 0 5px gray;
 }
 
+#icerik > ul{
+  padding-left: 70px;
+  
+}
+#tanitim > ol{
+  list-style-type: lower-latin;
+  padding-left: 70px;
+}
+#tanitim > h2{
+  text-decoration: underline;
+}
+
+aside h2, aside p{
+  font-size: smaller;
+}
 /* footer altsol ayarları */
 #altsol{
   padding: 20px;
